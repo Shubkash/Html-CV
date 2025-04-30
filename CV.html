@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shubham Kashyap - CV</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+      color: #333;
+      line-height: 1.6;
+      padding-bottom: 40px;
+    }
+
+    .header {
+      background: linear-gradient(to right, #2a2a3c, #4e4e75);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 40px;
+      color: white;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    .profile {
+      height: 160px;
+      width: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: top;
+      border: 4px solid white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .name {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .job {
+      font-size: 20px;
+      color: #ffd700;
+      font-weight: 500;
+    }
+
+    .section {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      padding: 30px 40px;
+      flex-wrap: wrap;
+    }
+
+    .left-section, .right-section {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .section-box {
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .section-title {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #2a2a3c;
+      border-bottom: 2px solid #2a2a3c;
+      padding-bottom: 6px;
+      text-transform: uppercase;
+    }
+
+    .section-box p, .section-box li {
+      font-size: 16px;
+    }
+
+    .section-box ul {
+      margin-left: 20px;
+      padding-top: 5px;
+    }
+
+    .section-box ul li {
+      margin-bottom: 10px;
+    }
+
+    .section-box ul li::before {
+      content: '»';
+      color: #555;
+      margin-right: 8px;
+    }
+
+    .internship-box, .projects-box {
+      background-color: #f6f6ff;
+    }
+
+    .internship-box ul li::before,
+    .projects-box ul li::before {
+      content: '✔';
+      color: #4CAF50;
+      margin-right: 6px;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .intro {
+        margin-top: 20px;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="intro">
+      <p class="name">Shubham Kashyap</p>
+      <p class="job">Web Developer</p>
+    </div>
+    <img class="profile" src="PXL_20240503_114812873.PORTRAIT~2.jpg" alt="Profile Picture">
+  </div>
+
+  <div class="section">
+    <!-- Left Section -->
+    <div class="left-section">
+      <div class="section-box">
+        <p class="section-title">Summary</p>
+        <p>
+          Passionate and dedicated web developer with a strong foundation in HTML, CSS, and JavaScript. 
+          Interested in building interactive, responsive web applications and user-centric solutions.
+        </p>
+      </div>
+
+      <div class="section-box">
+        <p class="section-title">Technical Skills</p>
+        <ul>
+          <li>JavaScript (Intermediate)</li>
+          <li>HTML5, CSS3 (Advanced)</li>
+          <li>Java (Beginner)</li>
+          <li>Node.js (Beginner)</li>
+          <li>C++ (Intermediate)</li>
+          <li>MySQL (Intermediate), MongoDB (Beginner)</li>
+          <li>Platforms: Windows</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <p class="section-title">Certifications</p>
+        <ul>
+          <li>Java SE Programmer | Oracle Certified</li>
+          <li>Soft Skills Course | The Open University</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <p class="section-title">Extra-Curricular</p>
+        <ul>
+          <li>Public Speaking Event | Dec '21</li>
+          <li>Digital Presentation Contest | Feb '23</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+        <div class="section-box internship-box">
+            <p class="section-title">Freelance Experience</p>
+            <p><strong>Role:</strong> Freelance Web Developer</p>
+            <p><strong>Duration:</strong> Jan '24 – Present</p>
+            <p><strong>Work:</strong> Designed and developed responsive websites and UI components for personal projects and small clients. Focused on clean layout, accessibility, and performance using HTML, CSS, and JavaScript.</p>
+          </div>
+          
+
+      <div class="section-box projects-box">
+        <p class="section-title">Projects</p>
+        <ul>
+          <li><strong>YouTube Clone Project</strong> – Built a responsive video platform interface using HTML & CSS.</li>
+          <li><strong>Whisp Chat App</strong> – Designed a basic real-time chat UI and layout for a mock messaging platform.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <p class="section-title">Achievements</p>
+        <ul>
+          <li>5-Star C++ Programmer on HackerRank</li>
+          <li>YouTube Channel Creator</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <p class="section-title">Education</p>
+        <p>
+          <strong>Bachelor of Computer Application</strong><br>
+          Lovely Professional University, Phagwara, IN <br>
+          CGPA: 7.75 | Apr '23 - Present
+        </p>
+        <br>
+        <p>
+          <strong>Senior Secondary</strong><br>
+          Mayo International School, East Delhi, IN <br>
+          CGPA: 8.8 | Jun '19 - Mar '23
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
